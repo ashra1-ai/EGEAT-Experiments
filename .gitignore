@@ -1,0 +1,28 @@
+# Ignore datasets
+data/
+datasets/
+*.tar
+*.tar.gz
+*.zip
+
+# Ignore checkpoints / trained models
+checkpoints/
+results/
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
