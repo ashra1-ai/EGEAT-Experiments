@@ -339,3 +339,30 @@ EGEAT-Experiments/
 - Large-scale scaling to ViT and ConvNeXt architectures.
 
 ---
+
+## 📚 Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@article{egeat2024,
+  title={Exact Geometric Ensemble Adversarial Training (EGEAT): A Unified Framework for Robust Optimization and Gradient-Space Regularization},
+  author={Your Name},
+  journal={Your Journal},
+  year={2024}
+}
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- PyTorch team for the excellent deep learning framework
+- Adversarial robustness research community
+- Contributors and reviewers of this work
