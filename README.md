@@ -4,14 +4,6 @@
 
 This repository hosts the official implementation of **EGEAT — Exact Geometric Ensemble Adversarial Training**, a unified adversarial learning framework that merges **exact inner maximization**, **gradient-space regularization**, and **ensemble-based smoothing** into one cohesive optimization paradigm.
 
-📄 *Companion to the research paper:*  
-
-**"Exact Geometric Ensemble Adversarial Training (EGEAT): A Unified Framework for Robust Optimization and Gradient-Space Regularization" (2024)**
-
-**Author:** Kanishk Ashra | Department of Computing Science, University of Alberta | Student ID: 1776486
-
----
-
 ## 📘 Abstract
 
 Adversarial robustness remains one of the most persistent open challenges in modern deep learning, exposing a fundamental tension between high accuracy on natural data and extreme sensitivity to imperceptible perturbations.
