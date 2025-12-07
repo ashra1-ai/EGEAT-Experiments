@@ -172,43 +172,6 @@ python run_experiments.py \
 
 ---
 
-## 📁 Repository Structure
-
-```
-EGEAT-Experiments/
-
-├── src/
-
-│   ├── attacks/          # FGSM, PGD, CW implementations
-
-│   ├── evaluation/       # Metrics, gradient similarity, transfer
-
-│   ├── models/           # CNN, MLP architectures
-
-│   ├── training/         # EGEAT training loop
-
-│   ├── utils/            # Data + visualization tools
-
-│   └── config.py
-
-├── results/
-
-│   ├── figures/
-
-│   ├── logs/
-
-│   └── checkpoints/
-
-├── run_experiments.py
-
-├── requirements.txt
-
-└── README.md
-
-```
-
----
-
 ## 📈 Evaluation Metrics
 
 | Metric | Description |
