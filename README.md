@@ -34,7 +34,7 @@ EGEAT's training procedure integrates three synchronized mechanisms per iteratio
 
 EGEAT exhibits logarithmic variance decay with increasing ensemble size, confirming smoother convergence through weight-space averaging.
 
-![Variance vs Ensemble Size](figures/fig5_variance_surface.png)  
+![Variance vs Ensemble Size](fig5_variance_surface.png)  
 
 *Figure 1. 3D surface of ensemble variance as a function of ensemble size K and smoothing strength λ₂.*
 
@@ -44,7 +44,7 @@ EGEAT exhibits logarithmic variance decay with increasing ensemble size, confirm
 
 PCA projection of input-gradient vectors shows geometric disentanglement: EGEAT ensembles occupy orthogonal gradient subspaces compared to PGD and Soup baselines.
 
-![3D Gradient Constellation](figures/gradient_constellation_3d.png)  
+![3D Gradient Constellation](gradient_constellation_3d.png)  
 
 *Figure 2. Gradient-space PCA revealing decorrelated sensitivity subspaces (EGEAT = blue, Soup = orange, PGD = teal).*
 
@@ -54,7 +54,7 @@ PCA projection of input-gradient vectors shows geometric disentanglement: EGEAT 
 
 Loss-surface visualization demonstrates EGEAT's smoother curvature and reduced anisotropy, supporting the geometric-robustness hypothesis.
 
-![Loss Landscape](figures/loss_landscape_showcase.png)  
+![Loss Landscape](loss_landscape_showcase.png)  
 
 *Figure 3. 2-D cross-section of the loss surface; darker regions correspond to flatter basins.*
 
@@ -64,7 +64,7 @@ Loss-surface visualization demonstrates EGEAT's smoother curvature and reduced a
 
 Edge thickness encodes attack transfer rate between models; EGEAT minimizes cross-model connectivity.
 
-![Adversarial Transfer Graph](figures/transfer_graph.png)  
+![Adversarial Transfer Graph](transfer_graph.png)  
 
 *Figure 4. Transfer graph illustrating lowered inter-model transferability under EGEAT.*
 
@@ -74,7 +74,7 @@ Edge thickness encodes attack transfer rate between models; EGEAT minimizes cros
 
 Smooth loss descent and monotonic accuracy gain reflect training stability despite adversarial regularization.
 
-![PGD Training Progress](figures/pgd_training_progress.png)  
+![PGD Training Progress](pgd_training_progress.png)  
 
 *Figure 5. Training and validation trajectories for CIFAR-10.*
 
